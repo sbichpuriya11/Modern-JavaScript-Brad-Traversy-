@@ -1,0 +1,11 @@
+body{
+    font-family: 'sf ui display';
+}
+
+.btn-info{
+    background-color:orangered;
+    border-color: orangered;
+}
+textarea{
+    resize: none;
+}
