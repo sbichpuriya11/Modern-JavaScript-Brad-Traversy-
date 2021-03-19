@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //   for(let i=0;i<10;i++)  
+        //     {
+        //         if(i==2){
+        //             console.log('2 is my favourite number');
+        //         continue;
+        //         }
+            
+        //     if(i==5)
+        //         {
+        //             break;
+        //         }
+        //     console.log('Number '+i);
+        //     }
+
+
+        // let i=0;
+        // while(i<10)
+        //     {
+        //         console.log(i);
+        //         i++;
+        //     }
+
+
+
+        // let i=100;
+        // do{
+        //     console.log('Number '+i);
+        //     i++;
+        // }while(i<10);
+
+
+        const cars  = ['Ford','Chevy','Honda','Toyota'];
+        // for(let i=0;i<cars.length;i++) 
+        //     {
+        //         console.log(cars[i]);
+        //     }
+
+        // cars.forEach(function(car,array,index){
+        //     console.log(`${car}:${array}`);
+        //     console.log(index);
+        // });
+
+
+        // const course =[
+        //     {id:1,name:'John'},
+        //     {id:2,name:'Sara'},
+        //     {id:3,name:'Steve'},
+        //     {id:4,name:'Dave'}
+        //     ]
+        // const ids = course.map(function(st){
+        //     return st.id;
+        // })
+        // console.log(ids);
+
+
+        const user = {
+            firstName:'John',
+            lastName:'Dave',
+            age: 39,
+            address:{
+                city:'Miami',
+                state:'Florida'
+            }
+        }
+
+        for(let x in user)
+            {
+                console.log(`${x}:${user[x]}`);
+            }
+    </script>
+</body>
+</html>

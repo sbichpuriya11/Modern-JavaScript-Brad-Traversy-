@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const numbers = [23, 226, 923, 13, 134, 54, 43, 34, 11, 57];
+        const numbers1 = new Array(21, 32, 54, 75);
+        const fruits = ['Apple', 'Banana', 'Grapes', 'Mango'];
+        const mixed = [32, 'Hello', true, null, [12, 43, 12], { a: 21, b: 78 }, new Date()];
+
+        //console.log(mixed);
+
+        let val;
+        val = numbers.length;
+        val = Array.isArray(numbers);
+
+        // val = numbers[2];
+
+        numbers[4] = 45;
+
+        val = numbers.indexOf(54);
+        //console.log(numbers);
+        // numbers.push(24);
+        // numbers.push(65);
+        // numbers.push(31);
+        // numbers.push(81);
+        // numbers.pop();
+
+        // numbers.unshift(48);
+
+        // numbers.shift();
+
+        // numbers.splice(2,5);
+
+        // numbers.reverse();
+
+        // val = numbers.concat(numbers1);
+        // val = numbers.sort();
+        // // val = numbers.sort(function(x,y){
+        // //     return x-y;
+        // // });
+
+        // val = numbers.sort(function(x,y){
+        //     return x-y;
+
+        // })
+        
+        function under50(num){
+            return num<20;
+            
+        }
+        val = numbers.find(under50);
+        console.log(val);
+    </script>
+</body>     
+
+</html>

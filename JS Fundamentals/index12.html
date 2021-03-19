@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function greet(firstName){
+        //     return ('Hello '+ firstName);
+        // }
+
+        // console.log(greet('John'));
+
+
+        // function user(firstName=' ',lastName='User'){
+        //     // if(typeof firstName === 'undefined')
+        //     //     firstName = 'John';
+        //     // if(typeof lastName === 'undefined')
+        //     //     lastName = 'Doe';
+        //     return 'Hello '+firstName+' '+lastName;
+        // }
+        // console.log(user('Steve','Smith'));
+
+
+
+        // (function(name='Brad'){
+        //     console.log('Hello '+name);
+        // })('Steve');
+
+
+        const todo={
+            add:function(){
+                console.log('Add todo');
+            },
+            edit:function(id){
+                console.log(`Edit todo ${id}`);
+            }
+        }
+        todo.delete = function(id){
+            console.log(`Delete todo ${id}`);
+        }
+        todo.add();
+        todo.edit(3);
+        todo.delete(1);
+    </script>
+</body>
+</html>

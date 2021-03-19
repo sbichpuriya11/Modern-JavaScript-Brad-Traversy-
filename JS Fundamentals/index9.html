@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let val;
+        const today = new Date();
+
+        let birthDay = new Date('07/23/2020 11:23:59');
+        birthDay = new Date('September 10 1981');
+
+        val = today.getMonth();
+        val = today.getDate();
+        val = today.getDay();
+        val = today.getFullYear();
+        val = today.getHours();
+        val = today.getMinutes();
+        val = today.getSeconds();
+        val = today.getMilliseconds();
+        val = today.getTime();
+
+        birthDay.setMonth(3);
+        birthDay.setDate(23);
+        birthDay.setMinutes(12);
+        birthDay.setHours(12);
+        console.log(birthDay);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: 'source Code Pro';
+        }
+    </style>
+
+    <input type="radio" value="1" name="choice" id='gender' checked>1</input>
+    <input type="radio" value="2" name="choice" id='gender'>2</input>
+    <script>
+        // (function ()
+        //     {
+        //     var radios = document.getElementsByName('choice');
+        //     for(var i = 0; i < radios.length; i++)
+        //         {
+        //             radios[i].onclick = function()
+        //             {
+        //             console.log(this.value);
+        //             }
+        //         }
+        //     }
+        // )
+
+
+        // ();
+
+
+        // (function(){
+
+        //   var x = document.getElementsByName('choice');
+
+
+        // })();
+
+
+            var result ;
+
+
+        (function () {
+            var radios = document.getElementsByName('choice');
+            for (var i = 0; i < radios.length; i++) {
+                radios[i].onclick = function () {
+                  result = this.value;
+
+                }
+            }
+        })();
+
+
+console.log(result);
+
+
+        
+    </script>
+</body>
+
+</html>
