@@ -1,0 +1,26 @@
+[
+    {
+        "id":101,
+        "name":"Boris Pekshaver",
+        "company":"Data Analysis with Python & Pandas",
+        "phone":"232-212-1133"
+    },
+    {
+        "id":102,
+        "name":"Tim Buchalka",
+        "company":"Mastering the C Programming with Tim",
+        "phone":"331-441-1133"
+    },
+    {
+        "id":103,
+        "name":"Kirill Eremenko",
+        "company":"Tableau guide 2020 Full A-Z",
+        "phone":"445-335-6634"
+    },
+    {
+        "id":104,
+        "name":"Brad Traversy",
+        "company":"React Tutotrials from beginning to end",
+        "phone":"660-859-8877"
+    }
+]

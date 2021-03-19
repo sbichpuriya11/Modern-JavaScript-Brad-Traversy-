@@ -1,0 +1,37 @@
+BRADS INFO:-
+
+What is API?
+- Application Programming Interface
+- Contract provided by one piece of software to another
+- Structured request and response
+- We just worked with an API that takes a request and respond with jokes
+
+What is REST API?
+1)	Representational state transfer
+2)	Architectural style for designing network application
+3)	Relies on a stateless, client-server protocol, almost always https
+4)	Treats server onjects as resources that can be created or destroyed
+5)	Can be used virtually any programming language
+6)	All api's have their own rules and structures
+7)	If an api is restfull then it must contains http methods like put/get/post/delte/update
+
+REST API Main Methods
+1) GET: Retrieve data grom a specified resource
+2) POST: Submit data to be processed to a specified resource
+3) PUT: Update a specified resource
+4) DELETE: Delete a specified resource
+
+OPTIONALS
+- HEAD: Same as get but does not return a body
+- OPTIONS: Returns the supported HTTP methods
+- PATCH: Update partial resources
+
+API Endpoints
+Common endpoints are:- 
+GET          https://someurl.com/api/users      //GET ALL USERS
+GET          https://someurl.com/api/user/1     //GET SINGLE USER
+POST         https://someurl.com/api/users      //ADD USER
+PUT          https://someurl.com/api/users/1    //UPDATE USER
+DELETE       https://someurl.com/api/users/1    //DELETE USER
+
+ 
