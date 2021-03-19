@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Post 9982",
+      "body": "Chuck Norris Jokes\n",
+      "id": 1
+    },
+    {
+      "title": "Fake rest API",
+      "body": "GET,POST,PUT,DELETE",
+      "id": 2
+    }
+  ]
+}
