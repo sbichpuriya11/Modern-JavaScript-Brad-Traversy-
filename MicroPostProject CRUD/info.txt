@@ -1,0 +1,7 @@
+1) Download the zip file from gitHub
+2) Extract zip in one forlder
+3) Open cmd in that folder and write command 'npm install' (This npm will first look into the package.json file and will install the packages mentioned in that json file)
+4) Install json server with 'npm install json-server --save'(to save json server globally) to make that db.json file to perform Http methods (GET,POSt,PUT,DELETE,etc)
+5) Start the json server with 'npm run json:server'
+6) Start the app with 'npm start'
+7) One all the changes have been done build the app using 'npm run build'
