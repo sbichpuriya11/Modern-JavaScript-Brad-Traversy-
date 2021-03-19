@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<script src="fontawesome.js"></script>
+</head>
+<body>
+
+
+    <div id="loader" class="center"></div> 
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-md-6 mt-2">
+                <h1 class='text-light' id='time'></h1>  
+                <p class='text-light' id='remain'></p>
+            </div>
+            <!-- <div class='col-md-6 mt-5 text-right'>
+                <a href="#" id='city'>City</a>
+            </div> -->
+        </div>
+    </div>
+    <div class="container text-center p-0" id='weatherData'>
+        <div class="row">
+            <div class="col-md-4 offset-4">
+                <h1>
+                    <!-- <i class="fal fa-map-marker-alt" style="font-size: 75px;"></i>  -->
+                    <a href='#' id='city'>City, Country</a>
+                    <i class="fas fa-map-marker-alt" style='color:white;font-size: 55px;'></i>
+                </h1>
+                <span>
+                    <!-- <img src='http://openweathermap.org/img/wn/10d@2x.png' width = "100" alt='icon not found' id='icon'> -->
+                    <img alt="" width="90" id='icon'>
+                    <span id='temperature' style='font-size:23px;'></span>
+                </span>
+            </div>
+            <div class="col-md-4 offset-4 text-center">
+                <p id='desc' style='font-size:22px;'></p>
+                <fig class='float-left'>
+                    
+                    <img src="icons/sunrise_new-removebg-preview.png" width='100' style="padding: 9px;"/>
+
+                    <figcaption id='sunrise'></figcaption>
+                </fig>
+                <fig class='float-right'>
+                    
+                    <img src="icons/sunset_new-removebg-preview.png" width='100'  style="padding: 9px;"/>
+                    
+                    <figcaption id='sunset'></figcaption>
+                </fig>
+            </div>
+        </div>
+    
+        <div class="row mt-5 p-0">
+            <div class="col-md-2 text-center" id='feelslike'></div>
+            <div class="col-md-2 text-center" id='wind'></div>
+            <div class="col-md-2 text-center" id='visibility'></div>
+        <!-- </div>
+        <div class="row m-2 p-2"> -->
+            <div class="col-md-2 text-center" id='humidity'></div>
+            <div class="col-md-2 text-center" id='uv'></div>
+            <div class="col-md-2 text-center" id='pressure'></div>
+        </div>
+    </div>
+    
+    <div class="container-fluid mt-4" id='footer'>
+        <div class="row">
+            <div class="col text-center" ><span>Today</span><br><img width = "100" id='icon_one'><br><span id='temp_one' style='font-size:20px'></span></div>
+            <div class="col text-center" ><span id='first'></span><br><img width = "100" id='icon_first'><br><span id='temp_first'></span></div>
+            <div class="col text-center" ><span id='second'></span><br><img width = "100" id="icon_second"><br><span id='temp_second'></span></div>
+            <div class="col text-center" ><span id='third'></span><br><img width = "100" id="icon_third"><br><span id='temp_third'></span></div>
+            <div class="col text-center" ><span id='fourth'></span><br><img width = "100" id="icon_fourth"><br><span id='temp_fourth'></span></div>
+            <div class="col text-center" ><span id='fifth'></span><br><img width = "100" id="icon_fifth"><br><span id='temp_fifth'></span></div>
+            <div class="col text-center" ><span id='sixth'></span><br><img width = "100" id="icon_sixth"><br><span id='temp_sixth'></span></div>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src='storage.js'></script>
+    <script src="weather.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+

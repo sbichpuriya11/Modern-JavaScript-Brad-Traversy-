@@ -1,0 +1,103 @@
+/* @import url(//db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display); */
+body{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('icons/background.jpg');
+    background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            user-select: none;
+            color: white;
+            /* font-family:'SF Pro Display thin'!important; */
+            font-family: 'Montserrat', sans-serif!important;
+            /* box-sizing: border-box; */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+img{
+    -webkit-user-drag: none;
+}
+
+
+h1{
+    font-size: 50px!important;
+    letter-spacing: 1px;
+    /* transform: scaleX(0.1,1); */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+p{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    font-size: 20px;
+}
+
+.row a{
+    text-decoration: none!important;
+    color:white;
+    font-size:30px;
+    outline: none;
+    vertical-align: middle!important;
+}   
+
+.row a:hover{
+    text-decoration: none;
+    color:white;
+    outline:none;
+}
+
+#weatherData{
+    color:White;
+}
+#weatherData h1{
+    font-size: 30px!important;
+}
+
+#footer{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),transparent;
+    color:whitesmoke!important;
+    display:inline-block;
+    height:185px;
+}
+
+#footer .col{
+    height:100%;
+    line-height: 43px;
+}
+
+#footer .col:hover{
+    background-color: rgba(173, 216, 230,0.2);
+}
+
+
+#footer .col:first-of-type{
+    height:100%;
+    line-height: 43px;
+    background-color: rgba(173, 216, 230,0.2)
+}
+
+
+
+
+
+#loader { 
+    border: 12px solid #f3f3f3; 
+    border-radius: 50%; 
+    border-top: 12px solid #444444; 
+    width: 70px; 
+    height: 70px; 
+    animation: spin 1s linear infinite; 
+} 
+  
+@keyframes spin { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+} 
+  
+.center { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto; 
+}
